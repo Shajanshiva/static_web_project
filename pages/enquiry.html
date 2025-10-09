@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry - TripNest</title>
+    <link rel="stylesheet" href="/styles/enquiry.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-content">
+        <h1 class="logo">TripNest</h1>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <h2 class="section-title">Enquiry Form</h2>
+      <form class="form-box">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="person">No. of People:</label>
+        <input type="number" id="person" name="person" required />
+
+        <label for="city">Country of Interest:</label>
+        <select id="city" name="city" required>
+          <option value="Brazil">Brazil</option>
+          <option value="France">France</option>
+          <option value="Japan">Japan</option>
+          <option value="Spain">Spain</option>
+        </select>
+
+        <label for="date">Preferred Travel Date:</label>
+        <input type="date" id="date" name="date" min="2025-09-04" required />
+
+        <a href="/pages/confirmation.html" class="book-btn">Book Now</a>
+      </form>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>&copy; 2025 TripNest. All rights reserved.</p>
+        <p>
+          Contact us:
+          <a href="mailto:support@tripnest.com">support@tripnest.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
