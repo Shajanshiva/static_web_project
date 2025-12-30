@@ -86,3 +86,64 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 1024px) {
+  .details,
+  .mails {
+    padding: 60px;
+    gap: 150px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .details,
+  .mails {
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+
+  .details,
+  .mails {
+    padding: 25px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .details h2 {
+    font-size: 20px;
+  }
+
+  .mails h1 {
+    font-size: 20px;
+  }
+
+  .mails p {
+    font-size: 14px;
+  }
+
+
+  footer {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+}

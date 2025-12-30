@@ -82,3 +82,81 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 1024px) {
+  .confirmation {
+    margin-top: 60px;
+    padding: 50px 20px;
+  }
+
+  .tick {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .confirmation {
+    margin-top: 50px;
+    padding: 40px 20px;
+  }
+
+  .tick {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  footer {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+
+  .confirmation {
+    margin-top: 40px;
+    padding: 30px 15px;
+  }
+
+  .tick {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .confirmation p {
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 80px;
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+}

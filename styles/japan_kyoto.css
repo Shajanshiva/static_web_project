@@ -127,3 +127,59 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .activities {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .activities {
+    grid-template-columns: 1fr;
+  }
+
+  .activity img {
+    height: 180px;
+  }
+
+  .activity h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .activity p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .book-btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+}
+

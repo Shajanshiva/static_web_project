@@ -112,3 +112,62 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 992px) {
+  .hero-text h2 {
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .card img {
+    height: 400px;
+  }
+
+  .card-title {
+    font-size: 36px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+
+  .hero-text h2 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+
+  .card img {
+    height: 250px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+
+  footer {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
+}
+
